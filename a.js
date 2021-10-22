@@ -151,7 +151,7 @@ for (var i =0;i<200;i++) {
 
 }
 
-// powers.push(new Power());
+powers.push(new Power());
 
 
 
@@ -269,7 +269,7 @@ function enginestep() {
 
         }
             
-            /* function newGame() {
+                 function newGame() {
     score = 0;
     health = 100;
     enemies=[];
