@@ -1,7 +1,7 @@
 "use strict"
         var stage = {
-            w:1280,
-            h:720
+            w:69vw,
+            h:69vh
         }
 
         var _pexcanvas = document.getElementById("canvas");
@@ -17,7 +17,7 @@
             y:stage.h/4
         }
 
-        var scale = 1;
+        var scale = 7;
         var portrait = true;
         var loffset = 0;
         var toffset = 0;
@@ -61,7 +61,9 @@ var Cannon = function(x,y,tx,ty) {
     this.ty = ty;
     this.r = 10;
 }
-
+var pepsi = () => {
+console.log('repo edited by yash')
+}
 var cannons = [];
 
 var gameover = false;
