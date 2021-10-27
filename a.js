@@ -52,6 +52,14 @@ function drawHeart(x,y,w) {
     ctx.closePath();
     ctx.fill();
 }
+/*function drawHeart(x,y,w) {
+    ctx.beginPath();
+    ctx.arc(x-w/4, y, w/4, 0.75*Math.PI,0);
+    ctx.arc(x+w/4, y, w/4, 1*Math.PI, 2.25*Math.PI);
+    ctx.lineTo(x,y+w/1.5);
+    ctx.closePath();
+    ctx.fill();
+}*/
 
 
 var Cannon = function(x,y,tx,ty) {
